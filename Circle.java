@@ -10,4 +10,12 @@ public class Circle {
     public Circle(int radius) {
         this.radius = radius;
     }
+
+    public double calculateArea() {
+        return 3.14*Math.pow(radius, 2);
+    }
+
+    public double calculatePerimeter() {
+        return 2*3.14*radius;
+    }
 }
